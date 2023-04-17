@@ -1,0 +1,456 @@
+html {
+  font-family: "Century Gothic", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  color: #1D263D;
+  font-size: 120%;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+}
+
+header {
+  color: #DB1F48;
+  top: 50px;
+  margin-left: 20px;
+}
+
+a {
+  text-decoration: none;
+  padding: 3px;
+  border-radius: 10%;
+  /*background-color:#E5DDC8;*/
+  background-color: #ee899f;
+  color: #1D263D;
+}
+
+a:hover {
+  background-color: #DB1F48;
+  color: #EFF2F8;
+}
+
+nav ul {
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+nav ul li a {
+  background-color: transparent;
+  border: none;
+}
+
+nav ul li {
+  padding: 5px;
+  background-color: #E5DDC8;
+  margin: 2px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #DB1F48;
+  background-color: transparent;
+}
+
+.date-content nav ul {
+  list-style-type: disc;
+  padding: 0 0 0 20px;
+}
+
+.date-content nav ul li {
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.logo {
+  width: 20%;
+}
+
+h2 {
+  border-bottom: 2px solid #DB1F48;
+  padding: 5px 5px 5px 0;
+  color: #1D263D;
+
+}
+
+.heading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+p a,
+cite a {
+  background-color: transparent;
+  color: #1D263D;
+  padding: 0;
+  font-style: italic;
+  color: #DB1F48;
+}
+
+p a:hover,
+cite a:hover {
+  background-color: transparent;
+  color: #DB1F48;
+}
+
+.faq-box button {
+  border-bottom: 2px solid #1D263D;
+}
+
+.faq-button {
+  border: none;
+  font-family: "Century Gothic", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  width: 100%;
+  background-color: transparent;
+  padding: 10px;
+  border-bottom: 2px solid gray;
+  text-align: left;
+  margin-bottom: 7px;
+}
+
+.faq-button:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.faq-button:focus {
+  background-color: rgba(128, 128, 128, 0.6);
+}
+
+.hidden {
+  display: none;
+}
+
+.all-buttons {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.tab-button {
+  display: block;
+  padding: 10px;
+  width: 100%;
+  font-family: "Century Gothic", Arial, sans-serif;
+  font-weight: bold;
+  background-color: transparent;
+  border: 2px #1D263D solid;
+  border-left: none;
+  border-bottom: none;
+  border-right: none;
+}
+
+#craft-tab {
+  border-bottom: 2px #1D263D solid;
+}
+
+.tab-button:hover {
+  background-color: rgba(219, 31, 72, 0.5);
+  cursor: pointer;
+}
+
+.tab-button:focus {
+  background-color: rgba(219, 31, 72, 0.8);
+}
+
+.content-box {
+  border: 2px #1D263D solid;
+  border-top: none;
+  height: auto;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 5px;
+}
+
+.reviews {
+  font-style: italic;
+}
+
+.reviewContent {
+  margin-bottom: 1%;
+}
+
+.identifier,
+.active,
+.form-question {
+  font-weight: bold;
+}
+
+
+#hamburger {
+  background-color: transparent;
+  border: none;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+#hamburger:active {
+  color: #DB1F48;
+  cursor: pointer;
+}
+
+#hamburger:hover {
+  cursor: pointer;
+}
+
+.form-content {
+  display: block;
+  margin-bottom: 2%;
+  max-width: 400px;
+}
+
+#share,
+#recommendation {
+  margin-left: 0;
+  margin-right: 3%;
+}
+
+.output {
+  margin-top: 2%;
+}
+
+.align-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.submit-button,
+.reset-button {
+  margin: 1%;
+}
+
+
+.social-icon {
+  margin-right: 20px;
+  border: none;
+  background-color: transparent;
+  padding: 0px;
+}
+
+.social-icon:hover {
+  cursor: pointer;
+}
+
+.social-icon a {
+  background-color: transparent;
+}
+
+.social-medias {
+  display: flex;
+  flex-direction: row;
+}
+
+input {
+  margin-right: 15px;
+}
+
+@media(min-width:600px) {
+  html {
+    font-size: 100%;
+    margin: 20px;
+    padding: 0;
+    max-width: 100%;
+  }
+
+  body {
+    padding-bottom: 10px;
+    max-width: 100%;
+  }
+
+  #hamburger {
+    display: none;
+  }
+
+  #navbar {
+    display: none;
+  }
+
+  #navOutsideMenu {
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .reviews {
+    display: flex;
+    flex-direction: row;
+    font-style: italic;
+  }
+
+  .tab-button {
+    display: inline-block;
+    border: 2px #1D263D solid;
+    border-left: none;
+  }
+
+  .content-box {
+    width: 75%;
+  }
+
+  .heading {
+    flex-direction: column;
+  }
+
+  .heading img {
+    max-width: 20%;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+
+  nav ul li {
+    display: inline-block;
+    padding: 10px 40px 10px 40px;
+    background-color: transparent;
+  }
+
+  img {
+    max-width: 500px;
+    height: auto;
+    display: block;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+  .date-page {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .date-content {
+    width: 50%;
+  }
+
+  .date-image {
+    width: 50%;
+  }
+
+  .history {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .history p {
+    width: 50%;
+  }
+
+  .history img {
+    width: 50%;
+  }
+
+  .product-vendors ul {
+    width: 40%;
+  }
+
+  .product-vendors img {
+    max-width: 250px;
+  }
+
+  .entertainment {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .entertainment-info {
+    width: 40%;
+  }
+
+  .entertainment img {
+    max-height: 300px;
+  }
+
+  .product-vendors,
+  .wine-vendors,
+  .food-vendors,
+  .craft-vendors {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .wine-vendors ul {
+    width: 40%;
+  }
+
+  .wine-vendors img {
+    max-width: 300px;
+    margin: 10px;
+  }
+
+  .food-vendors ul {
+    width: 40%;
+  }
+
+  .food-vendors img {
+    width: 40%;
+    margin: 10px;
+  }
+
+  .craft-vendors ul {
+    width: 40%;
+  }
+
+  .craft-vendors img {
+    width: 38%;
+    margin: 10px;
+  }
+
+  .directions {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .directions-content {
+    width: 50%;
+    margin-right: 50px;
+  }
+
+  .parking {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .parking-content {
+    width: 50%;
+    margin-right: 50px;
+  }
+
+  #craft-tab {
+    border-right: none;
+  }
+
+  .all-buttons {
+    display: flex;
+    justify-content: center;
+  }
+
+}
+
+@media(min-width:850px) {
+
+  .main-produce,
+  .main-wine,
+  .main-food,
+  .main-craft {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
